@@ -1,39 +1,12 @@
-# 04 Web APIs: Code Quiz
+# My Code Quiz
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This is by far the most difficult project to date. Its been a good challenge. It is definitely harder to write all the code without any starter code. It has really tested the ability to be able to research docs and be able to find the right information to code. Im slowly getting a little better with doing the functions. Still have along ways to go and much to learn. Building this project helped me learn more about how to add event listeners, functions, var, timers, and much more. Excited to learn more and implement more of what im learning to the future projects. HTML and CSS is getting easier, JavaScript will get better soon.
 
 
-
-## User Story
-
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
 ## Usage
 
 <img src="Assets\images\Quiz-gif.gif" alt="gif" >
+
+
