@@ -1,47 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-    <title>JavaScript Quiz</title>
+    <title>Coding Quiz</title>
     <link rel="stylesheet" href="/Assets/css/style.css">
 </head>
 <body>
-    <h1>JavaScript Quiz</h1>
-    <div id="quiz-container">
-        <p id="question-text"></p>
-        <form id="quiz-form">
-            <label>
-                <input type="radio" name="answer" value="a">
-                <span id="option-a"></span>
-            </label>
-            <label>
-              <input type="radio" name="answer" value="b">
-              <span id="option-b"></span>
-          </label>
-          <label>
-              <input type="radio" name="answer" value="c">
-              <span id="option-c"></span>
-          </label>
-          <label>
-              <input type="radio" name="answer" value="d">
-              <span id="option-d"></span>
-          </label>
-          <input type="submit" value="Submit">
-      </form>
-  </div>
-  <div id="result-container">
-      <p id="result-text"></p>
-      <form id="initials-form">
-          <label>
-              <input type="text" id="initials-input" maxlength="3">
-          </label>
-          <input type="submit" value="Save">
-      </form>
-  </div>
-  <script src="Assets/js/script.js"></script>
+    <h1>Coding Quiz</h1>
+    <div id="question-container">
+        <h2 id="question-text"></h2>
+        <ul id="answer-options">
+            <li class="answer-option"></li>
+            <li class="answer-option"></li>
+            <li class="answer-option"></li>
+            <li class="answer-option"></li>
+        </ul>
+    </div>
+    <div id="result-container">
+        <h2 id="result-text"></h2>
+        <p>Score: <span id="score-value">0</span></p>
+        <label for="name-input">Your Name Here:</label>
+        <input type="text" id="name-input" />
+        <button id="submit-button">Click to Submit</button>
+    </div>
+    <button id="start-button">Start the Quiz</button>
+    <div id="timer-container">
+        <p id="timer-text">Time: <span id="timer-value">60</span> seconds</p>
+    </div>
+
+    <script src="/Assets/js/script.js"></script>
 </body>
 </html>
